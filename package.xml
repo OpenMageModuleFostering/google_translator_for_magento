@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Google_Translator_For_Magento</name>
+    <version>1.0.0.3</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL-3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Use Google Translate API to convert the Store in multiple Language.</summary>
+    <description>This Extension is useful for multilingual magento store where we can use Google Translate API instead of Multiple language Store.</description>
+    <notes>Second Stable Release</notes>
+    <authors><author><name>ZealousWeb Technologies Pvt Ltd.</name><user>ZealousWeb</user><email>magento@zealousweb.com</email></author></authors>
+    <date>2015-08-13</date>
+    <time>09:47:46</time>
+    <contents><target name="magecommunity"><dir name="ZealousWeb"><dir name="GTranslator"><dir name="Helper"><file name="Data.php" hash="727a5912e65a885a3b3047b109dc3045"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Language.php" hash="2ea9e86fca642e8e0a8dc778cce14e46"/></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="1ad913f40716786c93477802e0e52529"/></dir><dir name="etc"><file name="adminhtml.xml" hash="c3c33b87e5ceb1b1569a93c30e66ab48"/><file name="config.xml" hash="3666986c1c09523c08b7792d8ada7890"/><file name="system.xml" hash="8869977539416cd2a50749d3b7b82ded"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="gtranslator"><file name="index.phtml" hash="d7e9813ff081253125bb72b1754cb22d"/><file name="language.phtml" hash="3d06a6582117895cbec539fe04b00222"/></dir></dir><dir name="layout"><file name="gtranslator.xml" hash="7fe1b85e2eb23573deb9d769604b2e84"/></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="gtrasnlator.css" hash="a12c87e82e21e6dd0c2e7b55070efefc"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ZealousWeb_GTranslator.xml" hash="1b2cb54796ca09835a7e1cfcfe7e8899"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
